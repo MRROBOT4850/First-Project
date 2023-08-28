@@ -1,0 +1,89 @@
+@media (min-width:801px) {
+    .box1{
+        display: flex;
+        flex-wrap: wrap;
+        gap:11vw;
+        justify-content: space-evenly;
+        background-color:#5f9993;
+        margin-bottom: 4vw;
+        width: 100vw;
+    
+    }
+    .box2{
+        height:83vh;
+        width:20vw;
+        background-color: burlywood;
+        border-radius: 12px;
+        justify-content:space-evenly;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    
+    }
+    .hori{
+        width:32vw;
+        height: 58vh;
+    }
+    .Box{
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    
+        height: 69vh;
+        width:32vw;
+        background-color: rgb(163, 222, 135);
+       border-radius: 12px;
+    }
+    video{
+        height: 80vh;
+        width: 20vw;
+    }
+}
+
+@media (max-height:500px),(max-width:900px){
+    .box1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color:#5f9993;
+        
+    }
+    .box2{
+        width:53vw;
+        height:53vh;
+        background-color: yellow;
+        border-radius: 20px;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        justify-content:space-around;
+        margin:3vh;
+    }
+    .hori{
+        width:74vw;
+        height: 50vh;
+    }
+    .Box{
+        width:75vw;
+        height:59vh;
+        justify-content: space-evenly;
+        background-color: yellow;
+        border-radius: 20px;
+        display: flex;
+        margin:3vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    video{
+      height:40vh;
+      width: 53vw;
+  
+    }
+}

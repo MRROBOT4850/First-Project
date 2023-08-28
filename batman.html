@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flexbox{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+        background-color: aquamarine;
+        
+       
+    }
+    .hell{
+        display: inline;
+    }
+    .gridx{
+        display: grid;
+        background-color: aquamarine;
+        /* grid-row-gap: 9px;
+        grid-column-gap: 9px; */
+        height: 56vh;
+        grid-gap: 9px;
+        grid-template-columns:25vw 25vw 25vw 25vw; 
+        grid-template-rows: auto auto auto auto auto;
+        /* grid-row:span 3; */
+    }
+    .box{
+        /* justify-content: space-around; */
+        height:30vh;
+        width:30vw;
+        border:2px solid black;
+        /* border-style:solid; */
+    }
+    .sas{
+        justify-content: space-around;
+        align-content: flex-end;
+        border: black;
+        border-style:solid;
+        height:25vh;
+        width: 20vw;
+       
+    }
+    .imgo{
+        height: fit-content;
+        width: fit-content;
+        position:relative;
+    }
+</style>
+<body>
+    <h1>superman</h1>
+    <!-- <div class="flexbox">
+        <video class="sas" src="All in one (MAN OF STEEL) _mcu _dceu _marvel _dc _shorts _shorts(720P_60FPS).mp4" controls></video>
+        <video class="sas" src="Badass Superman Edit _ Lordly(1080P_HD).mp4" controls></video>
+        <video src="-- Deadpool X Wolverine ---- __ Gasolina _ X-men _shorts _deadpool _wolverine  _marvel _gasolina(720P_HD).mp4" class="sas" controls></video>
+        <video class="sas" src="Batman Edit _ METAMORPHOSIS _shorts _dc(720P_60FPS).mp4" controls></video>
+    </div> -->
+    <!-- <img src="bgm.jpg " alt="superman" class="imgo" > -->
+    <div class="hell">
+        <div class="gridx">
+            <video controls src="Badass Superman Edit _ Lordly(1080P_HD).mp4" class="box">
+                SUPERMAN
+            </video>
+            <video controls src="Batman Edit _ METAMORPHOSIS _shorts _dc(720P_60FPS).mp4" class="box"></video>
+            <video controls src="DC is better than Marvel(720P_HD).mp4" class="box"></video>
+            <video controls src="Gal Gadot Edit(4K_60FPS).webm" class="box"></video>
+            <video controls src="Gal Gadot Wonder-Woman _ Main-tera edit(480P).mp4" class="box"></video>
+    </div>
+    </div>
+   
+</body>
+</html>
